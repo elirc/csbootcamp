@@ -1,0 +1,4 @@
+# build output from `dotnet run` on file-based apps
+bin/
+obj/
+*.user

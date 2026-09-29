@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "executedTests": 13,
+  "checks": [
+    {
+      "project": "_Organized Desktop/01 Net Workspaces/csbootcamp",
+      "id": "c10fc180fa35",
+      "command": [
+        "dotnet",
+        "run",
+        "--project",
+        "guides/crud-web-lab",
+        "--configuration",
+        "Release",
+        "--",
+        "--self-test"
+      ],
+      "cwd": "C:\\Users\\Owner\\Desktop\\AstraOrganized2\\astra-remaining-improvements\\stage\\c10fc180fa35",
+      "environmentOverrides": {},
+      "startedAt": "2026-09-22T00:23:05.959889+00:00",
+      "status": "complete",
+      "log": "crud-b02-http-lab.log",
+      "pid": 36448,
+      "exitCode": 0,
+      "passed": true,
+      "finishedAt": "2026-09-22T00:25:52.743147+00:00",
+      "elapsedSeconds": 166.65
+    }
+  ],
+  "limits": [
+    "This new teaching companion uses in-memory single-process storage; no authentication, durable database, browser UI or deployment is included.",
+    "The If-Match contract supports one strong numeric tag only, not full HTTP conditional request grammar.",
+    "The original bootcamp exercise suites and scoreboard were not rerun or modified.",
+    "One overlapping HTTP writer case checks observed behavior; exhaustive stress testing and multi-instance concurrency are outside this lab."
+  ]
+}
