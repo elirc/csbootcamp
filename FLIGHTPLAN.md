@@ -100,9 +100,14 @@ Anything still `☐` or `◐`, plus the `★★★` files you skipped. Then pick
 
 Four modules are complete and green: language core, methods and delegates,
 collections and LINQ, strings and time. `docs/ROADMAP.md` lists what is
-planned next and why, in the order it will be built — async and tasks,
-types and OOP, errors, generics and iterators, and the debug-hunt modules
+planned next and why, in the order it will be built — types and OOP,
+errors, async and tasks, generics and iterators, and the debug-hunt modules
 where the code arrives finished and broken and you find the planted bug.
+
+After the flight: the [CRUD web lab](astraupskill/README.md) applies these
+fundamentals to a small ASP.NET Core API (`guides/crud-web-lab`). It is not
+part of the ten hours or the scoreboard, and unlike the exercises it is a
+normal project run with `dotnet run --project`.
 
 If you want to extend it yourself, `bootcamp/_lib/FORMAT.md` is the
 authoring contract, and `verify.cs` enforces it.

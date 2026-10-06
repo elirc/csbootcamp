@@ -68,6 +68,8 @@ bootcamp/            ← the main event: 4 modules, 31 exercises, 506 tests
 cheatsheets/         ← offline reference: the language, and LINQ
 quizzes/             ← rapid-fire recall per module, answers hidden
 docs/                ← OVERVIEW.md (the map) · ROADMAP.md (what's next)
+guides/crud-web-lab/ ← companion ASP.NET Core CRUD API with 13 HTTP self-checks
+astraupskill/        ← the walkthrough and exercises for that lab
 ```
 
 Each module: `README.md` (the lesson — read first), `exercises/` (yours),

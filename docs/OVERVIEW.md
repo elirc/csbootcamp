@@ -11,6 +11,7 @@ what is built and what is coming.
 | `bootcamp/` | modules of graded exercises | you are about to write code |
 | `cheatsheets/` | lookup tables, three-line examples | you need an answer in ten seconds |
 | `quizzes/` | rapid-fire recall, answers hidden | you want to know what you actually retained |
+| `guides/crud-web-lab` + `astraupskill/` | a small ASP.NET Core API and its walkthrough | you have finished 01–03 and want to see them in an HTTP service |
 | `docs/` | this file, the roadmap | you want the map |
 | `FLIGHTPLAN.md` | a ten-hour schedule | you have a flight and a laptop |
 

@@ -1,10 +1,7 @@
 # Work through a lost-update repair
 
-The bootcamp previously had language exercises but no executable HTTP CRUD
-companion. This addition supplies a complete small reference implementation,
-not a claim that an existing production API was repaired. To understand its
-central design, first imagine a naive Replace implementation that looks up
-an item and assigns the submitted title and done flag unconditionally.
+To see why `TaskStore.Replace` is written the way it is, first imagine a
+naive Replace implementation that looks up an item and assigns the submitted title and done flag unconditionally.
 
 Create a task titled Learn CRUD. Its first representation carries version 1,
 and the response exposes that version in an ETag. Give the same representation

@@ -19,7 +19,14 @@ Companion to [`OVERVIEW.md`](OVERVIEW.md). The authoring contract is
 | `04-strings-and-time` | 5 | building strings, culture-aware formatting, anchored regex, `DateOnly` arithmetic, an injected clock |
 
 Plus the machinery: the `Check` harness, `verify.cs`, `progress.cs`, the
-format contract, two cheat sheets, and the flight plan.
+format contract, two cheat sheets, one quiz per module (`quizzes/`), and the
+flight plan.
+
+Also built, outside the module format: a CRUD web lab
+(`guides/crud-web-lab`, walked through in [`../astraupskill/`](../astraupskill/README.md)) —
+a small ASP.NET Core API with 13 self-run HTTP checks for validation and
+optimistic-concurrency conflicts. It is a normal project, not a file-based
+exercise, so `verify.cs` and `progress.cs` do not see it.
 
 ## Next, in build order
 
@@ -82,8 +89,7 @@ modules need no tooling changes — only content.
 
 - **Cheat sheets**: async, testing, .NET APIs (the current two cover the
   language and LINQ).
-- **Quizzes**: rapid-fire recall per module, answers hidden, meant to be
-  answered out loud.
+- **Quizzes** for each new module, in the same format as the existing four.
 - **Guides**: long-form essays on the two things that need more than a
   lesson — how `async`/`await` actually works (the state machine, the
   synchronisation context, why `.Result` deadlocks), and what the GC does
@@ -94,4 +100,6 @@ modules need no tooling changes — only content.
 Scope discipline is why it runs offline and alone: no NuGet packages, no
 web framework, no Docker, no database engine, nothing that needs a network
 to grade. If it cannot be graded by `dotnet run <file>.cs`, it does not
-belong here.
+belong in `bootcamp/`. (The CRUD web lab is the one deliberate exception: it
+uses the ASP.NET Core shared framework that ships with the SDK — still no
+NuGet packages — and lives in `guides/` so the modules stay pure.)
